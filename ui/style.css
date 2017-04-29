@@ -229,7 +229,7 @@ body {
 header {
   height: 700px;
   max-width: 100%;
-  background: url(/assets/img/bgimg.jpg) no-repeat center center;
+  background: url(/bgimg.jpg) no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
