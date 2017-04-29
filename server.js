@@ -17,11 +17,15 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
+app.get('/prof1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, '/', 'prof1.jpg'));
+});
+
 app.get('/icon-fb.png', function (req, res) {
   res.sendFile(path.join(__dirname, '/', 'icon-fb.png'));
 });
 
-app.get('/icon-g+.jpg', function (req, res) {
+app.get('/icon-g+.png', function (req, res) {
   res.sendFile(path.join(__dirname, '/', 'icon-g+.png'));
 });
 
