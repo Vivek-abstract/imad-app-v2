@@ -24,7 +24,8 @@ app.get('/test-db', function(req, res) {
             res.status(500).send(err.toString());
         } else {
             res.send(JSON.stringify(result));
-    })
+        }
+    });
 })
 
 app.get('/ui/style.css', function (req, res) {
