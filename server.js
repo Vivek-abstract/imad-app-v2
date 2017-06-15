@@ -6,7 +6,7 @@ var config = {
     user: 'vivek-abstract',
     host: 'http://db.imad.hasura-app.io',
     database: 'vivek-abstract',
-    password: process.env.DB_PASSWORD;
+    password: process.env.DB_PASSWORD
 }
 
 
