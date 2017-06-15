@@ -48,7 +48,7 @@ app.get('/icon-g+.png', function (req, res) {
   res.sendFile(path.join(__dirname, '/', 'icon-g+.png'));
 });
 
-app.get('/icon-git.jpg', function (req, res) {
+app.get('/icon-git.png', function (req, res) {
   res.sendFile(path.join(__dirname, '/', 'icon-git.png'));
 });
 
