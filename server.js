@@ -7,7 +7,7 @@ var config = {
     host: 'http://db.imad.hasura-app.io',
     database: 'vivek-abstract',
     password: process.env.DB_PASSWORD
-}
+};
 
 
 var app = express();
