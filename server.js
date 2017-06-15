@@ -4,8 +4,8 @@ var path = require('path');
 var Pool = require('pg').Pool;
 var config = {
     user: 'vivek-abstract',
-    host: 'http://db.imad.hasura-app.io',
     database: 'vivek-abstract',
+    host: 'db.imad.hasura-app.io',
     password: process.env.DB_PASSWORD
 };
 
